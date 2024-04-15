@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Promedio/calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="promedio">
+            <h2 >Calcular promedio</h2>
+                <label for="nota1">Ingrese nota1</label>
+                <input type="number" id="nota1" required>
+                <label for="nota2">Ingrese nota2</label>
+                <input type="number" id="nota2">
+                <label for="nota3">Ingrese nota3</label>
+                <input type="number" id="nota3"> 
+                <button onclick="calcularPromedio()">Calcular promedio</button>
+            <p id="pe"></p>
+        </div>
+        <div class="calculadora">
+            <h2>Calculadora</h2>
+            <label for="num1">Ingrese un número</label>
+            <input type="text" id="num1" placeholder="Ingrese un número" > 
+
+            <label for="num2">Ingrese número 2</label>
+            <input type="text" id="num2" required> 
+
+            <label for="resul">Resultado</label>
+            <input type="text" id="resul" disabled >  
+
+             <br>
+            <button onclick="sumar()">Sumar</button>
+            <button onclick="restar()">Restar</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <button onclick="dividir()">Dividir</button>
+           
+        </div>
+    </div>        
+<script src="promedio.js"></script>
+
+</body>
+</html>

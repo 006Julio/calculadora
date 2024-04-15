@@ -1,0 +1,50 @@
+body{
+    background-color: lightblue;
+
+}
+h2{
+    text-align: center;
+    color:darkblue;
+    margin: 10px 5px;
+    
+}
+.container{
+    height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.calculadora ,.promedio{
+    margin: auto;
+    border: solid lightcoral 3px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+}
+.calculadora{
+    background-color: rgb(240, 232, 238);
+    width: 30%;
+    box-sizing: border-box  ;
+
+}
+.promedio{
+    background-color:lightgreen;
+    
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    width: 240px;
+    margin: 3px;
+    height: 30px;
+}
+button{
+    border: none;
+    color: #fff;
+    background-color: rgb(51, 20, 20);
+    padding: 5px;
+    margin: 5px;
+   
+}

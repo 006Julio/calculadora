@@ -1,0 +1,51 @@
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;    
+}
+.fuck{
+    background-color: rgb(20, 20, 66); 
+    border-radius: 10px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+details{
+    color: white;
+}
+details{
+    margin-left: 10px;
+}
+p{
+    padding: 5px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+}
+summary:before{
+    content:"❓";
+    margin-right: 5px;
+
+}
+summary{
+    list-style: none;
+    margin: 5px 0;
+}
+details[open] > summary {
+   color: rgb(20, 20, 66) ;
+   
+    }
+[name="busqueda"]{
+    color:red;
+}
+[type="submit"]{
+    width: 100px;
+}
